@@ -1,0 +1,51 @@
+:root {
+  --cor-destaque: #7BD984;
+  --sombra: 0px 5px 10px -4px;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.img-cash {
+  top: 10%;
+  width: 30%;
+}
+
+.container-full, .container-login .btn {
+  background-color: var(--cor-destaque);
+}
+
+.container-login-content {
+  padding-left: 10%;
+  padding-right: 10%;
+  z-index: 1;
+  width: 80%;
+}
+
+.container-login a {
+  color: #A6A6A6;
+}
+
+input {
+  box-shadow: 0px 2px 5px -4px;
+}
+
+.container-buttons {
+  z-index: 2;
+  width: 50%;
+  margin-top: 10%;
+  height: 20%;
+}
+
+.btn, .container-buttons .btn, .container-login-content {
+  box-shadow: var(--sombra);
+}
+
+.container-buttons img {
+  width: 8%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+
